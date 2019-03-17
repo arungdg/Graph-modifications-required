@@ -1,0 +1,18 @@
+<p>{{date}}</p>
+ <mat-card class="cards">
+     <div class="items" *ngFor="let p of data.slotAvailabilities" > 
+      <mat-card-title>{{ p.date }}</mat-card-title>
+      <div class="bingo" *ngFor="let r of p.slots">
+        <table>
+          <tr>
+            <td>
+          <p class="type">{{ r.slotType }}</p>
+        </td>
+        </tr>
+        </table>
+          <mat-card class="lays" *ngFor="let q of r.containers">
+              <p class="type"> {{q.totalContainerSize-q.availableContainerSize}}%</p>
+          </mat-card>
+          </div>
+        </div>
+   </mat-card> 

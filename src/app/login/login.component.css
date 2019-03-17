@@ -1,0 +1,34 @@
+.container {
+    background-image: url("../../assets/img/6.-1993-First-major-tri-discipline-project-Timeline-Petronis.jpg");
+    background-image: cover;
+    background-repeat: no-repeat;
+    margin-left: -10px;
+    width: 1535px;
+    height: 750px;
+ 
+ }
+ .id
+ {
+    margin-top: 5%;
+    margin-left: 24%;
+ }
+ 
+ .password{
+    margin-left: 24%;
+ }
+ .btn{
+    margin-left: 40%;
+    width: 8%;
+ }
+ .pics{
+    margin-top:200px;
+    position: absolute;
+    margin-left:625px;
+    width:380px;
+    height:300px;
+    border-radius:40px;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 50px 50px 50px 50px;
+    /* background-image: url("../../../../assets/img/background.jpeg"); */
+    opacity: 0.9;
+ }

@@ -1,0 +1,38 @@
+.container {
+   background-image: url('../../assets/img/map_route_close_up_112709_1920x1080.jpg');
+   background-image: cover;
+   background-repeat: no-repeat;
+   margin-left:-10px;
+   width: 1535px;
+   height: 780px;
+   /* display: flex; */
+}
+.ring{
+   display:flex;
+   padding-top: 100px;
+}
+mat-card{
+   width:150px;
+}
+mat-card p{
+   color: blue;
+}
+.won{
+   padding-left:20px;
+   width:230px;
+}
+.ving{
+   margin-left:20px;
+   width:200px;
+}
+.wing{
+top:30px;
+   margin-left:20px;
+   height:50px;
+}
+.zumbo{
+   margin-left:1270px;
+   width:200px;
+
+
+}

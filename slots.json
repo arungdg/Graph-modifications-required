@@ -1,0 +1,23 @@
+{"slotsAvailable": 
+    {
+        "date": "2019-02-23",
+        "slots": [
+            {
+                "slotType": "A",
+                "slotStatus": true,
+                "slotType": "9:00AM-12:00PM"
+            },
+            {
+                "slotType": "Slot B",
+                "slotStatus": false,
+                "slotType": "2:00PM-5:00PM"
+            },
+            {
+                "slotNumber": "Slot C",
+                "slotStatus": true,
+                "slotType": "6:00PM-9:00PM"
+            }
+                ]
+            }
+                    
+}

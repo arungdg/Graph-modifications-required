@@ -1,0 +1,37 @@
+<div class="geetha">
+<app-header></app-header>
+<div class="container">
+  <mat-card class="row1">
+    <mat-card-title>BANGALORE</mat-card-title>
+      <mat-card-content>
+<agm-map [style.height]="'500px'" [latitude]="12.9716" [longitude]="77.5946" [zoom]="8" [disableDefaultUI]="false" [zoomControl]="false">
+  <agm-marker [latitude]="12.9716" [longitude]="77.5946">
+  </agm-marker>
+ </agm-map>
+ <br>
+</mat-card-content>
+</mat-card>
+<mat-card class="row2">
+   <mat-card-title>PUNE</mat-card-title>
+  <mat-card-content>
+ <agm-map [style.height]="'500px'" [latitude]="18.5204" [longitude]="77.5946" [zoom]="8" [disableDefaultUI]="false" [zoomControl]="false">
+  <agm-marker [latitude]="18.5204" [longitude]="73.8567">
+  </agm-marker>
+ </agm-map>
+ <br>
+</mat-card-content>
+</mat-card>
+<mat-card class="row3">
+   <mat-card-title>KOLKATA</mat-card-title>
+    <mat-card-content>
+ <agm-map [style.height]="'500px'" [latitude]="22.5726" [longitude]="88.3639" [zoom]="8" [disableDefaultUI]="false" [zoomControl]="false">
+  <agm-marker [latitude]="22.5726" [longitude]="88.3639">
+  </agm-marker>
+ </agm-map>
+ 
+</mat-card-content>
+</mat-card>
+</div>
+<button mat-raised-button class="bharath" (click)="continue()">Continue</button>
+<app-footer></app-footer>
+</div>

@@ -1,0 +1,46 @@
+ .container {
+    background-image: cover;
+    background-repeat: no-repeat;
+    margin:0px;
+    width: 100%;
+    height: 780px;
+    display: flex;
+    padding-top: 100px;
+    
+ }
+ .id{
+    position: absolute;
+    padding-left: 180px;
+    margin-top: 60px;
+    color: lightgreen;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+ 
+ }
+ .cards {
+   width: 750px;
+   height: 400px;
+   margin-top: 150px;
+   margin-left: -150px;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   opacity:0.5;
+} 
+.items {
+    display: flex;
+    
+}
+.bingo{
+   margin-top: 40px;
+   margin-right: 20px;
+   padding-right: 120px;
+
+}
+.lays{
+   margin-bottom: 8px;
+   background-color: #f0f7ee;
+}

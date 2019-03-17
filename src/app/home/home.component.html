@@ -1,0 +1,47 @@
+<app-header></app-header>
+<div class="container">
+
+<div class="ring">
+
+
+        <mat-card class="won">
+      <mat-form-field>
+        <input
+          matInput
+          [matDatepicker]="picker"
+          placeholder="Choose a date"
+          (dateInput)="addEvent($event)"
+        />
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+    </mat-card>
+
+
+        <mat-card class="ving">
+      <mat-form-field>
+        <mat-select placeholder="Choose slots">
+          <mat-option
+            *ngFor="let slot of slots"
+            value="{{ slot.value }}"
+            (click)="onClick(slot.value)">
+            {{ slot.viewValue }}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+    </mat-card>
+  <!-- <mat-card class="wing"> -->
+      <button (click)="showGraph()" type="submit" #submitButton>
+        Show routes
+    </button>
+    <!-- </mat-card> -->
+</div>
+<div *ngIf="errorMessage">
+  {{ errorMessage }}
+</div>
+<mat-card class="zumbo">
+  <h2>X-axis: Latitude</h2>
+  <h2>Y-axis: Longitude</h2>
+</mat-card>
+<app-chart></app-chart>
+<app-footer></app-footer>

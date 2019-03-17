@@ -1,0 +1,31 @@
+.bharath{
+    margin-left:700px;
+    color:white;
+    background-color: black;
+}
+.container{
+    display:flex;
+    margin-left:10px;
+    
+}
+mat-card{
+    /* position: absolute; */
+    margin-top:80px;
+    height:580px;
+    width:500px;
+}
+mat-card-title{
+    margin-left: 200px;
+}
+mat-card-content{
+    margin-top:20px;
+}
+.geetha{
+    background-image: url("../../assets/img/globe_map_travel_127886_1920x1080.jpg");
+    background-image: cover;
+    background-repeat: no-repeat;
+    margin-left: -10px;
+    width: 1535px;
+    height: 750px; 
+
+}

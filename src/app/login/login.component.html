@@ -1,0 +1,27 @@
+<div class="container">
+    <app-header></app-header>
+     <mat-card class="pics">
+    <br>
+    <form [formGroup]="user" (ngSubmit)="login()">
+     <mat-form-field appearance="outline" class="id">
+       <mat-label>Delivery manager login</mat-label>
+       <input matInput placeholder="Enter your email id" type="text"
+         formControlName="managerId" required />
+       <!-- <mat-icon matSuffix>sentiment_very_satisfied</mat-icon> -->
+       <mat-hint></mat-hint>
+     </mat-form-field>
+     <br>
+     <mat-form-field appearance="outline" class="password">
+       <mat-label>Password</mat-label>
+       <input matInput placeholder="Enter your password" type="password"
+         formControlName="password" required />
+       <!-- <mat-icon matSuffix>sentiment_very_satisfied</mat-icon> -->
+       <mat-hint></mat-hint>
+     </mat-form-field>
+     <br>
+     <button mat-raised-button class = "btn" color="primary" type="submit" (click)="login1()" [disabled]="!user.valid">Login</button>
+    </form>
+    </mat-card>
+    <app-footer></app-footer>
+    </div>
+    

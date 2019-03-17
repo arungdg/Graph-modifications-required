@@ -1,0 +1,52 @@
+ .container {
+    background-image: url('../../assets/img/astillero-navantia-fene.jpg');
+    background-image: cover;
+    background-repeat: no-repeat;
+    margin-left:-10px;
+    width: 1535px;
+    height: 650px;
+    display: flex;
+    padding-top: 100px;
+ }
+ .ding{
+    opacity:0.9;
+ }
+ 
+  .id{
+    position: absolute;
+    top:150px;
+    padding-left: 80px;
+    color: lightgreen;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    opacity:0.7;
+ 
+ }
+ .cards {
+   width: 750px;
+   height: 400px;
+   margin-top: 400px;
+   margin-left: 250px;
+   left: 100px;
+   background-color: #dbdfe4;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+} 
+.items {
+    display: flex;
+    
+}
+.bingo{
+   margin-top: 40px;
+   margin-right: 20px;
+   padding-right: 120px;
+
+}
+.lays{
+   margin-bottom: 8px;
+   background-color: #f0f7ee;
+}

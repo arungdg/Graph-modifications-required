@@ -1,0 +1,26 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.styling{
+  text-align: center;
+}
+
+.mat-toolbar-row, .mat-toolbar-single-row {
+  display: inline;
+  box-sizing: border-box;
+  padding: 16px 16px;
+  /* width: 100%; */
+  flex-direction: row;
+  align-items: center;
+  white-space: nowrap;
+  background-color: #2b2b2b;
+}
+header {
+top: 0;
+left: 0;
+width: 100%;
+right: 0;
+position: fixed;
+z-index: 1;
+}
