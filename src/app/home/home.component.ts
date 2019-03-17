@@ -1,4 +1,3 @@
-import { HttpClient } from '@angular/common/http';
 import {
   Component,
   OnInit,
@@ -6,8 +5,6 @@ import {
   ElementRef,
   ChangeDetectorRef
 } from '@angular/core';
-import { importType } from '@angular/compiler/src/output/output_ast';
-import { HomeService } from '../services/Home.service';
 import { ChartComponent } from '../chart/app.chart';
 import { MatDatepickerInputEvent } from '@angular/material/datepicker';
 
@@ -38,9 +35,6 @@ export class HomeComponent {
   errorMessage = '';
 
   constructor(private ref: ChangeDetectorRef) {}
-  // ngOnInit() {
-  //   // this.submitButton.nativeElement.disabled = true;
-  // }
 
   totalPrice() {
     console.log('this is child');
@@ -71,14 +65,8 @@ export class HomeComponent {
     if (this.dateValue === null || this.selectedSlot === null) {
       this.errorMessage = 'All fields are compulsory';
     } else {
-      // if (this.chartComponent.flag === false) {
-      //   this.errorMessage = 'Please choose both fields';
-      //   this.ref.detectChanges();
-      // } else {
-      //   this.errorMessage = null;
         this.chartComponent.getChartInfo(this.dateValue, this.selectedSlot);
         this.ref.detectChanges();
-      // }
     }
   }
 }

@@ -1,6 +1,11 @@
 
 <div class="container" >
-    <div *ngIf="chart">
-        <canvas id="canvas" style="background:whitesmoke">{{ chart }}</canvas>
+    <div *ngIf="errorMessage; else showChart">
+        {{errorMessage}}
     </div>
+    <ng-template #showChart>
+        <div *ngIf="chart">
+            <canvas id="canvas" style="background:whitesmoke">{{ chart }}</canvas>
+        </div>
+    </ng-template>
 </div>
